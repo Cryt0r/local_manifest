@@ -6,7 +6,7 @@
     <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
     
     <!-- kernel -->
-    <project path="kernel/xiaomi/msm8937" name="redmi4amurali/android_kernel_xiaomi_msm8937" remote="github" revision="cm-14.1" />
+    <project path="kernel/xiaomi/msm8937" name="CarlosArriagaCM/android_kernel_xiaomi_msm8937" remote="github" revision="cm-14.1" />
     
     <!-- vendor -->
     <project path="vendor/xiaomi" name="CarlosArriagaCM/proprietary_vendor_xiaomi" remote="github" revision="cm-14.1" />
