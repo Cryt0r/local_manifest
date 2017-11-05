@@ -1,27 +1,27 @@
-LineageOS For Xiaomi Redmi 4A
-=============================
+AospExtended For Xiaomi Redmi 4A
+================================
 
 Initializing:
 
 First, create a folder to hold the source code: 
 
-	mkdir ~/lineage
+	mkdir ~/aex
 
 Next, naviate into that new directory via the terminal:
 
-	cd ~/lineage
+	cd ~/aex
 
 To initialize your local repository use this command:
 
-	repo init -u git://github.com/LineageOS/android.git -b cm-14.1
+	repo init -u git://github.com/AospExtended/manifest.git -b 7.x
 
 Also add the local manifests:
 
-	git clone https://github.com/Xiaomi-MSM8937/local_manifest -b cm-14.1 .repo/local_manifests
+	git clone https://github.com/Xiaomi-MSM8937/local_manifest -b aex-n .repo/local_manifests
 
 Then sync up with this command:
 
-	repo sync --force-sync
+	repo sync -c -jx --force-sync --no-clone-bundle --no-tags
 	
 You can make the 4 higher depending on how fast your internet connection is. 
 
@@ -32,8 +32,7 @@ _Building from source_
 
 First:
 
-	cd ~/lineage
-
+	cd ~/aex
 Second:
 
 	$ echo "export USE_CCACHE=1" >> ~/.bashrc
@@ -42,4 +41,5 @@ Second:
 Third:
 
 	. build/envsetup.sh
-	brunch rolex
+  	lunch aosp_rolex-userdebug
+	maka aex -j8
