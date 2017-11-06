@@ -2,7 +2,7 @@
 <manifest>
 
     <!-- device tree -->	
-    <project path="device/xiaomi/rolex" name="Xiaomi-MSM8937/android_device_xiaomi_rolex" remote="github" revision="cm-14.1" />
+    <project path="device/xiaomi/rolex" name="Xiaomi-MSM8937/android_device_xiaomi_rolex" remote="github" revision="dot-n" />
     <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
     
     <!-- kernel -->
