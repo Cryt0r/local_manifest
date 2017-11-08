@@ -2,13 +2,9 @@
 <manifest>
 
     <!-- device tree -->	
-    <project path="device/xiaomi/rolex" name="Xiaomi-MSM8937/android_device_xiaomi_rolex" remote="github" revision="cm-14.1" />
     <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
     
     <!-- kernel -->
     <project path="kernel/xiaomi/msm8937" name="Xiaomi-MSM8937/android_kernel_xiaomi_msm8937" remote="github" revision="cm-14.1" />
-    
-    <!-- vendor -->
-    <project path="vendor/xiaomi" name="Xiaomi-MSM8937/proprietary_vendor_xiaomi" remote="github" revision="cm-14.1" />
 
 </manifest>
